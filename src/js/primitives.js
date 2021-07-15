@@ -1,7 +1,7 @@
-console.log('primitives')
+console.log('primitives');
 
 let stringData = 'string data';
-console.log(stringData)
+console.log(stringData);
 //typoff - data type definition operator
 console.log(typeof stringData);
 
