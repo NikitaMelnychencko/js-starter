@@ -14,7 +14,7 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
 
 
  value = 1;
@@ -27,7 +27,7 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
 
 
 //Infinity
@@ -42,7 +42,7 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
 
 //Nan
 
@@ -56,7 +56,7 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
 
 //Boolean(logic) true to string
 
@@ -70,7 +70,7 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
 
 
 //false to string
@@ -85,7 +85,7 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
 
 
 
@@ -101,7 +101,7 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
 
 
 
@@ -117,4 +117,4 @@ console.log(`type data ${value}, through the constructor String():`, typeof toSt
 // 2-th lap
 toString = value + "";
 console.log(`${value}, through the constructor String():`, toString);
-console.log(`type data ${value}, through the constructor String():`, typeof toString);
+console.log(`type data ${value}, through the concatenation:`, typeof toString);
