@@ -1197,3 +1197,32 @@ console.log(getTotalBalanceByGender(users, 'male'));
 //const totalScore = students.reduce((total, student) => {
 //   return total + student.score;
 // }, 0);
+
+
+const isSquare = function(n){
+  return Math.sqrt(n) % 1 === 0;
+}
+
+console.log(isSquare(-1));//false
+console.log(isSquare(0));//true
+console.log(isSquare(3));//false
+console.log(isSquare(4));//true
+console.log(isSquare(25));//true
+console.log(isSquare(26));//false
+
+
+
+
+
+
+
+// describe("isSquare", function(){
+//   it("should work for some examples", function(){
+//     Test.assertEquals(isSquare(-1), , "-1: Negative numbers cannot be square numbers");
+//     Test.assertEquals(isSquare( 0), , "0 is a square number (0 * 0)");
+//     Test.assertEquals(isSquare( 3), , "3 is not a square number");
+//     Test.assertEquals(isSquare( 4), , "4 is a square number (2 * 2)");
+//     Test.assertEquals(isSquare(25), , "25 is a square number (5 * 5)");
+//     Test.assertEquals(isSquare(26), , "26 is not a square number");
+//   });
+// });
